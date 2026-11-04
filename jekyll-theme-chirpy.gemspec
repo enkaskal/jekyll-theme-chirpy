@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-chirpy"
-  spec.version       = "7.6.0"
-  spec.authors       = ["Cotes Chung"]
-  spec.email         = ["cotes.chung@gmail.com"]
+  spec.version       = "7.6.0-cryp7isolate"
+  spec.authors       = ["Stefan Schwoegler"]
+  spec.email         = ["stefan@cryp7.net"]
 
-  spec.summary       = "A minimal, responsive, and feature-rich Jekyll theme for technical writing."
-  spec.homepage      = "https://github.com/cotes2020/jekyll-theme-chirpy"
+  spec.summary       = "A minimal, responsive, and feature-rich Jekyll theme for technical writing. - enkaskal fork"
+  spec.homepage      = "https://github.com/enkaskal/jekyll-theme-chirpy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z --recurse-submodules`.split("\x0").select { |f|
@@ -15,11 +15,11 @@ Gem::Specification.new do |spec|
   }
 
   spec.metadata = {
-    "bug_tracker_uri"   => "https://github.com/cotes2020/jekyll-theme-chirpy/issues",
-    "documentation_uri" => "https://github.com/cotes2020/jekyll-theme-chirpy/#readme",
-    "homepage_uri"      => "https://cotes2020.github.io/chirpy-demo",
-    "source_code_uri"   => "https://github.com/cotes2020/jekyll-theme-chirpy",
-    "wiki_uri"          => "https://github.com/cotes2020/jekyll-theme-chirpy/wiki",
+    "bug_tracker_uri"   => "https://github.com/enkaskal/jekyll-theme-chirpy/issues",
+    "documentation_uri" => "https://github.com/enkaskal/jekyll-theme-chirpy/#readme",
+    "homepage_uri"      => "https://cryp7.net",
+    "source_code_uri"   => "https://github.com/enkaskal/jekyll-theme-chirpy",
+    "wiki_uri"          => "https://github.com/enkaskal/jekyll-theme-chirpy/wiki",
     "plugin_type"       => "theme"
   }
 
